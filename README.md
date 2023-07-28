@@ -43,7 +43,8 @@ If plot_type is not None, output would be a plot and a dataframe of target_name,
 </div>
 <br>
 
-If plot_type is `summary` then the plot would be a matrix diagram of numbers of time-series in each category 
+If plot_type is `summary` then the plot would be a matrix diagram of numbers of time-series in each category, similar to `tsintermittent-idclass` output in `R`
+<b>Note:</b> The total number of SBA displayed in the right corner is the sum of all demand patterns, more details [here](https://kourentzes.com/forecasting/2014/06/23/intermittent-demand-forecasting-package-for-r/)
 
 <div style="width:85%; margin:0 auto">
    <img src="example/output_multiple_summary.png">
