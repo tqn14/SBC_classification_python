@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='sbc-classification',
-      version='0.0.1',
+      version='0.0.3',
       description='Demand Patterns SBC (Syntetos, Boylan, Croston) method of Categorizations',
       author='Thu Nguyen',
       author_email='tqn1472@gmail.com',
@@ -10,9 +10,9 @@ setup(name='sbc-classification',
       long_description=open('README.md').read(),
       packages=find_packages(),
       install_requires=[
-          'pandas',
-          'numpy',
-          'matplotlib'
+          'pandas >= 1.5.3',
+          'numpy >= 1.24.4',
+          'matplotlib >= 3.7.2'
       ],
       test_suite='tests',
       tests_require=['pytest'],
