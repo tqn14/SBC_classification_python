@@ -109,7 +109,6 @@ def sbc_class(data, type = 'SBC', plot_type = None):
     if plot_type is not None: 
         if plot_type == 'bar': 
             d = util.create_dict_plot_helper(out_df)
-            print("test", d)
             out_plot = util.bar_plot(d)
             plt.show()
         elif plot_type == 'summary': 
