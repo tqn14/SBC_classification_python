@@ -24,13 +24,13 @@ Test data is the clean version of the data from M5 Forecasting Challenge competi
 <b>Note:</b> This function will not treat NA values. All the null values in the time-series should be treated separately.
 
 ```python
-from sbc import sbc_class.sbc_class
+from sbc import sbc_class
 
 df = pd.read_csv("./tests/data/sales_train_clean.csv")
 ## multiple targets
-out = sbc_class.(df.iloc[:, 1:], plot_type = 'summary')
+out = sbc_class.sbc_class(df.iloc[:, 1:], plot_type = 'summary')
 ## 1 target
-out1 = sbc_class.(df.iloc[:, 1], plot_type = 'summary')
+out1 = sbc_class.sbc_class(df.iloc[:, 1], plot_type = 'summary')
 
 print(out)
 print(out1)
